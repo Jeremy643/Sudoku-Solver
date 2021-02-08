@@ -278,9 +278,6 @@ class Sudoku:
 
 def main():
     sudoku = Sudoku.from_folder(join(dirname(__file__), 'puzzles'))
-    # sudoku = Sudoku.from_file('C:\\Users\\jerem\\Python\\sudoku_solver\\sudoku_solver\\puzzles\\easy_puzzle1.csv')
-
-    # sudoku.print_puzzles()
     sudoku.solve_puzzles()
 
 
